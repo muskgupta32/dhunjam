@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ;
+    background-color: #030303;
+    color: #FFFFFF;
+}
+.card
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:60%;
+    width:40%;
+}
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin:40px;
+}
+.card input{
+    display: block;
+    width:80%;
+    margin: 0 auto 20px ;
+    height:44px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+
+    padding:10px;
+   
+}
+.signin
+{
+    display: block;
+    width:80%;
+    margin:0 auto 20px;
+    height:44px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #6741D9;
+    border: none;
+}
+.inputs
+{
+    margin-bottom:40px;
+}
+.reg{
+    text-align: center;
+}
+.reg a
+{
+    text-decoration: none;
+   
+}
