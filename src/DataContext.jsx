@@ -13,9 +13,7 @@ export const DataProvider = ({ children }) => {
     localStorage.setItem('sharedId', newId);
   };
 
-  useEffect(() => {
-    console.log("Current id after set:", id);
-  }, [id]);
+ 
 
   return (
     <DataContext.Provider value={{ id, setSharedId }}>

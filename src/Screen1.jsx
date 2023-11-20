@@ -53,7 +53,7 @@ let Screen1 = () => {
   };
 
   useEffect(() => {
-    console.log('Value of id in useEffect screen1', id); // 4
+    
   }, [id]);
 
   return (
