@@ -43,7 +43,7 @@ let Screen1 = () => {
       setSharedId(newId);
 
       
-      navigate('/dhunjam');
+      navigate('/welcome');
     } catch (error) {
       
       console.error('Login failed', error);

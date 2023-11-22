@@ -11,8 +11,8 @@ function App() {
       <div className="App">
         <Router>
           <Routes>
-            <Route path='/' element={<Screen1 />} />
-            <Route path="/dhunjam" element={<Screen2 />} />
+            <Route path='/dhunjam' element={<Screen1 />} />
+            <Route path="/welcome" element={<Screen2 />} />
           </Routes>
         </Router>
       </div>
